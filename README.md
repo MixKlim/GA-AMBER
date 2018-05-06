@@ -2,9 +2,12 @@ The Apertif Monitor for Bursts Encountered in Real-time (AMBER, [1]) auto-tuning
 
 The program limits exploration of the total parameter space, finds more optimal configurations than brute-force sampling and reduces tuning time to few hours. The code is dedicated to the Apertif Lofar Exploration of the Radio Transient Sky (ALERT, [2]) but can be easily ported to any other radio transient surveys.
 
-defs.sh -- parameters of the survey \n
+defs.sh -- parameters of the survey 
+
 performance_test.sh -- fitness function evaluation (pipeline processing time on randomly generated data)
+
 ga_tuner.sh -- tuning with genetic search
+
 random_tuner.sh -- tuning with random search
 
 [1] https://github.com/AA-ALERT/AMBER/
